@@ -1,0 +1,2 @@
+RD_Rel_Tool ansible_host=10.100.16.52 ansible_user=shyamsundar_r ansible_ssh_pass=marc2020
+RD_Rel_Dev ansible_host=10.100.16.53 ansible_user=shyamsundar_r ansible_ssh_pass=marc2020

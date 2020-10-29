@@ -1,0 +1,6 @@
+-
+  name: Run a shell script in remote host (RD_Rel_Tool) with arguments
+  hosts: RD_Rel_Tool
+  tasks:
+    - name: Run a shell script in remote host (RD_Rel_Tool) with arguments  
+      script: /home/SOLARTISTECH/shyamsundar_r/GOT_Ticketlist_V3.1.sh BOP 24 RC

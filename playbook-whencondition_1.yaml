@@ -1,0 +1,8 @@
+-
+    name: 'Execute a script on all web server nodes'
+    hosts: all_servers
+    tasks:
+        -
+            name: Execute the service only if the host is the database server
+            service: 'name=mysql state=started'
+            when: ansible_host == "server4.company.com"
